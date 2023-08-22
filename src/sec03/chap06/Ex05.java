@@ -24,5 +24,13 @@ public class Ex05 {
         //  시작하는 부분이 다를 때는 첫 글자의 정수값 차이 반환
         int int_a6 = str_a1.compareTo(str_a4);
         int int_a7 = str_a4.compareTo(str_a3);
+
+        String str_b1 = "abc";
+        String str_b2 = "DEF";
+
+        int int_b1 = str_b1.compareTo(str_b2);
+
+        //  💡 compareToIgnoreCase : 대소문자 구분 없이 비교
+        int int_b2 = str_b1.compareToIgnoreCase(str_b2);
     }
 }
