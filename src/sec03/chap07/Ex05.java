@@ -47,3 +47,6 @@ public class Ex05 {
         //char nullChr2 = null;
     }
 }
+
+
+
