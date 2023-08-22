@@ -31,7 +31,7 @@ public class Ex02 {
             System.out.printf(format, 12, 2345, 67890, -1234567);
 
             //  ⭐️ formatted 메소드에서도 사용 가능
-            intResults[i] = format.format(12, 2345, 67890, -1234567);
+            // intResults[i] = String.format(12, 2345, 67890, -1234567);
         }
 
 
