@@ -22,7 +22,9 @@ public class Ex04 {
 
             System.out.printf(format, "Hello", "하이염");
 
-            strResults[i] = format.format("Hello", "하이염");
+            strResults[i] = String.format("Hello", "하이염");
+        }
+
         }
     }
-}
+

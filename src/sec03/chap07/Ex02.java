@@ -2,8 +2,6 @@ package sec03.chap07;
 
 public class Ex02 {
     public static void main(String[] args) {
-        System.out.printf("%d, %5d, %05d%n- - - - -%n%n", 123, 123, 123);
-
         //  💡 정수 다양하게 포매팅하기
         String[] intFormats = {
                 "%d",        // 1. 기본
@@ -31,9 +29,7 @@ public class Ex02 {
             System.out.printf(format, 12, 2345, 67890, -1234567);
 
             //  ⭐️ formatted 메소드에서도 사용 가능
-            intResults[i] = format.format(12, 2345, 67890, -1234567);
+            // intResults[i] = format.format(12, 2345, 67890, -1234567);
         }
-
-
     }
 }
