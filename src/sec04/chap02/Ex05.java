@@ -34,6 +34,7 @@ public class Ex05 {
                 holidays = null; // 휴일이 없는 분기와 구분
         }
 
+
         String result = holidays == null
                 ? "(잘못된 월입니다)"
                 : "분기 내 휴일: " + holidays
